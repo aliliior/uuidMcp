@@ -1,0 +1,18 @@
+{
+  "name": "calculator-mcp",
+  "version": "1.0.0",
+  "main": "calculator-server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node calculator-server.js"
+  },
+  "keywords": ["mcp", "calculator", "model-context-protocol"],
+  "author": "",
+  "license": "ISC",
+  "description": "简单的MCP计算器服务器，提供加法、减法、乘法和除法功能",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "zod": "^3.24.3"
+  }
+}
